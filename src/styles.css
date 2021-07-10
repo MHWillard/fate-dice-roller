@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700;900&display=swap");
+
+body {
+  padding: 20px;
+  background-color: #6699ff;
+}
+
+.container {
+  text-align: center;
+  padding: 30px;
+  background-color: floralwhite;
+  border-radius: 10px;
+}
+
+h1 {
+  font-family: "Lato", sans-serif;
+}
+
+.dice {
+  color: white;
+  border-radius: 15px;
+  height: 60px;
+  width: 60px;
+  margin: 5px;
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+  background-color: #2179d1;
+  display: inline-block;
+  white-space: nowrap; /* or `pre` */
+  overflow: hidden;
+  font-family: "Lato", sans-serif;
+}
+
+.dice-roller {
+  padding: 20px;
+  display: inline-block;
+}
+
+.roll-button {
+  padding: 5px;
+}
+
+.dice-result {
+  height: 60px;
+  width: 60px;
+  font-size: 35px;
+  font-weight: bold;
+  display: inline-block;
+  white-space: nowrap; /* or `pre` */
+  overflow: hidden;
+  font-family: "Lato", sans-serif;
+}
+
+.roll-prompt {
+  height: 60px;
+  margin: 5px;
+  font-size: 30px;
+  display: inline-block;
+}
